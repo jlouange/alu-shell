@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x -d
+find . type d | xargs chmod a+x
